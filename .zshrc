@@ -43,6 +43,7 @@ add-zsh-hook precmd update_prompt
 autoload -Uz compinit && compinit
 
 alias ls="ls -la"
+alias activate="source .venv/bin/activate"
 
 bindkey '^J' down-history   # Ctrl + J for moving down in history
 bindkey '^K' up-history     # Ctrl + K for moving up in history
