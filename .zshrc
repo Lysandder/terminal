@@ -2,7 +2,9 @@
 alias get_schedule='qlmanage -p /users/abdulaziz/desktop/schedule.png'
 alias get_typechart='qlmanage -p /users/abdulaziz/downloads/typechart.png'
 
-neofetch
+if [[ -o interactive && -z "$NVIM" ]]; then
+  neofetch
+fi
 
 # ps1='%f{cyan}%~%f %f{green}☭%f '
 #
