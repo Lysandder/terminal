@@ -19,9 +19,13 @@ cursor_stop_blinking_after 0.0
 
 # BEGIN_KITTY_BACKGROUND
 background_blur 100
-background_opacity 0.90
+# background_opacity 0.90 # DOES NOT WORK WITH macos_titlebar_color
 # END_KITTY_BACKGROUND
 
 # BEGIN_KITTY_MOUSE
 mouse_hide_wait -1
 # END_KITTY_MOUSE
+
+# BEGIN_TITLEBAR_DECORATION
+macos_titlebar_color #1e1d2d
+# END_TITLEBAR_DECORATION
