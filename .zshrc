@@ -1,6 +1,6 @@
 # alias get_schedule='open /users/abdulaziz/desktop/schedule.png'
 alias get_schedule='qlmanage -p /users/abdulaziz/desktop/schedule.png'
-alias get_typechart='qlmanage -p /users/abdulaziz/downloads/typechart.png'
+alias get_typechart='qlmanage -p /users/abdulaziz/desktop/typechart.png'
 
 if [[ -o interactive && -z "$NVIM" ]]; then
   neofetch
